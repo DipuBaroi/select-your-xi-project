@@ -1,0 +1,130 @@
+[
+  {
+    "player_image": "https://i.ibb.co.com/gFDWyfqQ/Virat-Kohli.jpg",
+    "player_name": "Virat Kohli",
+    "player_country": "India",
+    "player_role": "Batter",
+    "rating": 98,
+    "batting_style": "Right-Handed",
+    "bowling_style": "Right-arm Medium",
+    "price": "$150,000"
+  },
+  {
+    "player_image": "https://i.ibb.co.com/Lz3j5Sbs/PTI09-19-2024-000277-A-0-1727339020532-1727339042197.avif",
+    "player_name": "Shakib Al Hasan",
+    "player_country": "Bangladesh",
+    "player_role": "All-rounder",
+    "rating": 96,
+    "batting_style": "Left-Handed",
+    "bowling_style": "Slow Left-arm Orthodox",
+    "price": "1 Crore BDT"
+  },
+    {
+    "player_image": "https://i.ibb.co.com/Vcg66gX2/151120256e01b7a.jpg",
+    "player_name": "Travis Head",
+    "player_country": "Australia",
+    "player_role": "Batter",
+    "rating": 94,
+    "batting_style": "Left-Handed",
+    "bowling_style": "Right-arm Off-break",
+    "price": "$80,000"
+  },
+  {
+    "player_image": "https://i.ibb.co.com/21M76nLD/db87086a-e00c-4551-9ca5-e1d749dd5783-original.jpg",
+    "player_name": "Nicholas Pooran",
+    "player_country": "West Indies",
+    "player_role": "Wicketkeeper Batter",
+    "rating": 95,
+    "batting_style": "Left-Handed",
+    "bowling_style": "Right-arm Off-break",
+    "price": "$85,000"
+  },
+  {
+    "player_image": "https://i.ibb.co.com/67tG1Fkk/cf-0jc1d-N7g.webp",
+    "player_name": "Soumya Sarkar",
+    "player_country": "Bangladesh",
+    "player_role": "All-rounder",
+    "rating": 82,
+    "batting_style": "Left-Handed",
+    "bowling_style": "Right-arm Medium",
+    "price": "40 Lakh BDT"
+  },
+  {
+    "player_image": "https://i.ibb.co.com/v618nSjH/skysports-jos-buttler-england-5074394.jpg",
+    "player_name": "Jos Buttler",
+    "player_country": "England",
+    "player_role": "Wicketkeeper Batter",
+    "rating": 97,
+    "batting_style": "Right-Handed",
+    "bowling_style": "N/A",
+    "price": "$100,000"
+  },
+  {
+    "player_image": "https://i.ibb.co.com/wFJttb7L/liton-das-missed-the-last-test-series-against-new-zealand.webp",
+    "player_name": "Litton Das",
+    "player_country": "Bangladesh",
+    "player_role": "Wicketkeeper Batter",
+    "rating": 91,
+    "batting_style": "Right-Handed",
+    "bowling_style": "N/A",
+    "price": "70 Lakh BDT"
+  },
+  {
+    "player_image": "https://i.ibb.co.com/zTB59gz0/v-Gz-Iu2ixex-Y8iv-Ail4-GZ.jpg",
+    "player_name": "Taskin Ahmed",
+    "player_country": "Bangladesh",
+    "player_role": "Bowler",
+    "rating": 92,
+    "batting_style": "Left-Handed",
+    "bowling_style": "Right-arm Fast",
+    "price": "75 Lakh BDT"
+  },
+  {
+    "player_image": "https://i.ibb.co.com/20SNsyb9/img-228173-jaspritbumrah.avif",
+    "player_name": "Jasprit Bumrah",
+    "player_country": "India",
+    "player_role": "Bowler",
+    "rating": 99,
+    "batting_style": "Right-Handed",
+    "bowling_style": "Right-arm Fast",
+    "price": "$150,000"
+  },
+  {
+    "player_image": "https://i.ibb.co.com/4Zj5VtpW/49cdf7b35f5dec8f5930d6085621f168.webp",
+    "player_name": "Mustafizur Rahman",
+    "player_country": "Bangladesh",
+    "player_role": "Bowler",
+    "rating": 93,
+    "batting_style": "Left-Handed",
+    "bowling_style": "Left-arm Fast-medium",
+    "price": "80 Lakh BDT"
+  },
+  {
+    "player_image": "https://i.ibb.co.com/PzYBMgP1/Rashid-Khan.webp",
+    "player_name": "Rashid Khan",
+    "player_country": "Afghanistan",
+    "player_role": "All-rounder",
+    "rating": 98,
+    "batting_style": "Right-Handed",
+    "bowling_style": "Right-arm Leg-break",
+    "price": "$90,000"
+  },
+
+  {
+    "player_image": "https://i.ibb.co.com/MkW9WX7w/1790-3452554-updates.webp",
+    "player_name": "Mohammad Amir",
+    "player_country": "Pakistan",
+    "player_role": "Bowler",
+    "rating": 89,
+    "batting_style": "Left-Handed",
+    "bowling_style": "Left-arm Fast-medium",
+    "price": "$65,000"
+  }
+]
+
+
+
+
+
+
+
