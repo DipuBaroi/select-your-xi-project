@@ -16,6 +16,12 @@ function App() {
   const [availableBalance, setAvailableBalance] = useState(6000000)
   const [purchasedPlayer, setPurchasedPlayer] = useState([])
 
+  const removePlayer = (p)=>{
+    const filterData = purchasedPlayer.filter(ply=>ply.player_name !== p.player_name)
+    setPurchasedPlayer(filterData)
+    setAvailableBalance(availableBalance + parseInt(p.price.split('USD').join('').split(',').join('')))
+  }
+
 
 
   return (
@@ -23,10 +29,10 @@ function App() {
 
       <Navbar availableBalance={availableBalance}></Navbar>
       <section className='w-11/12 mx-auto flex justify-between items-center'>
-        <h3 className='font-bold text-2xl'>{toggle? 'Available Players' : 'Selected Players ( 4 / 6 )'}</h3>
+        <h3 className='font-bold text-2xl'>{toggle? 'Available Players' : `Selected Players (${purchasedPlayer.length}/6)`}</h3>
         <div className='flex font-semibold'>
           <button onClick={() => setToggle(true)} className={`border border-gray-400 py-3 px-5 rounded-l-2xl border-r-0 ${toggle === true ? ' bg-[#E7FE29]' : ''}`}>Available</button>
-          <button onClick={() => setToggle(false)} className={`border border-gray-400 py-3 px-5 rounded-r-2xl border-l-0 ${toggle === false ? ' bg-[#E7FE29]' : ''}`}>Selected <span>(0)</span></button>
+          <button onClick={() => setToggle(false)} className={`border border-gray-400 py-3 px-5 rounded-r-2xl border-l-0 ${toggle === false ? ' bg-[#E7FE29]' : ''}`}>Selected <span>({purchasedPlayer.length})</span></button>
         </div>
       </section>
       {
@@ -40,6 +46,7 @@ function App() {
           ></AvailablePlayers>
         </Suspense> : <SelectedPlayers
           purchasedPlayer={purchasedPlayer}
+          removePlayer={removePlayer}
         ></SelectedPlayers>
       }
     </>

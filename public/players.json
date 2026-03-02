@@ -7,7 +7,7 @@
     "rating": 98,
     "batting_style": "Right-Handed",
     "bowling_style": "Right-arm Medium",
-    "price": "3000,000 USD"
+    "price": "2000,000 USD"
   },
   {
     "player_image": "https://i.ibb.co.com/Lz3j5Sbs/PTI09-19-2024-000277-A-0-1727339020532-1727339042197.avif",
@@ -17,7 +17,7 @@
     "rating": 96,
     "batting_style": "Left-Handed",
     "bowling_style": "Slow Left-arm Orthodox",
-    "price": "1800,000 USD"
+    "price": "1600,000 USD"
   },
     {
     "player_image": "https://i.ibb.co.com/Vcg66gX2/151120256e01b7a.jpg",
@@ -27,7 +27,7 @@
     "rating": 94,
     "batting_style": "Left-Handed",
     "bowling_style": "Right-arm Off-break",
-    "price": "1500,000 USD"
+    "price": "1400,000 USD"
   },
   {
     "player_image": "https://i.ibb.co.com/21M76nLD/db87086a-e00c-4551-9ca5-e1d749dd5783-original.jpg",
@@ -37,7 +37,7 @@
     "rating": 95,
     "batting_style": "Left-Handed",
     "bowling_style": "Right-arm Off-break",
-    "price": "1500,000 USD"
+    "price": "1400,000 USD"
   },
   {
     "player_image": "https://i.ibb.co.com/67tG1Fkk/cf-0jc1d-N7g.webp",
@@ -57,7 +57,7 @@
     "rating": 97,
     "batting_style": "Right-Handed",
     "bowling_style": "N/A",
-    "price": "1600,000 USD"
+    "price": "1500,000 USD"
   },
   {
     "player_image": "https://i.ibb.co.com/wFJttb7L/liton-das-missed-the-last-test-series-against-new-zealand.webp",
@@ -87,7 +87,7 @@
     "rating": 99,
     "batting_style": "Right-Handed",
     "bowling_style": "Right-arm Fast",
-    "price": "2000,000 USD"
+    "price": "1800,000 USD"
   },
   {
     "player_image": "https://i.ibb.co.com/4Zj5VtpW/49cdf7b35f5dec8f5930d6085621f168.webp",
@@ -97,7 +97,7 @@
     "rating": 93,
     "batting_style": "Left-Handed",
     "bowling_style": "Left-arm Fast-medium",
-    "price": "1500,000 USD"
+    "price": "1400,000 USD"
   },
   {
     "player_image": "https://i.ibb.co.com/PzYBMgP1/Rashid-Khan.webp",
@@ -118,7 +118,7 @@
     "rating": 89,
     "batting_style": "Left-Handed",
     "bowling_style": "Left-arm Fast-medium",
-    "price": "1400,000 USD"
+    "price": "1300,000 USD"
   }
 ]
 
