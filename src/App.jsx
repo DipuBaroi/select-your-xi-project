@@ -1,5 +1,6 @@
 import { Suspense, useState } from 'react'
 import './App.css'
+ import { toast, ToastContainer } from 'react-toastify';
 import AvailablePlayers from './components/AvailablePlayers/AvailablePlayers'
 import Navbar from './components/Navbar/Navbar'
 import SelectedPlayers from './components/SelectedPlayers/SelectedPlayers'
@@ -13,12 +14,13 @@ const playersPromise = fetchPlayer()
 function App() {
 
   const [toggle, setToggle] = useState(true)
-  const [availableBalance, setAvailableBalance] = useState(6000000)
+  const [availableBalance, setAvailableBalance] = useState(10000000)
   const [purchasedPlayer, setPurchasedPlayer] = useState([])
 
   const removePlayer = (p)=>{
     const filterData = purchasedPlayer.filter(ply=>ply.player_name !== p.player_name)
     setPurchasedPlayer(filterData)
+    toast('Player Removed')
     setAvailableBalance(availableBalance + parseInt(p.price.split('USD').join('').split(',').join('')))
   }
 
@@ -28,7 +30,7 @@ function App() {
     <>
 
       <Navbar availableBalance={availableBalance}></Navbar>
-      <section className='w-11/12 mx-auto flex justify-between items-center'>
+      <section className='w-11/12 mx-auto flex justify-between items-center my-5'>
         <h3 className='font-bold text-2xl'>{toggle? 'Available Players' : `Selected Players (${purchasedPlayer.length}/6)`}</h3>
         <div className='flex font-semibold'>
           <button onClick={() => setToggle(true)} className={`border border-gray-400 py-3 px-5 rounded-l-2xl border-r-0 ${toggle === true ? ' bg-[#E7FE29]' : ''}`}>Available</button>
@@ -49,6 +51,7 @@ function App() {
           removePlayer={removePlayer}
         ></SelectedPlayers>
       }
+      <ToastContainer></ToastContainer>
     </>
   )
 }
