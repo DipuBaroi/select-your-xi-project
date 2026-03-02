@@ -3,7 +3,7 @@ import React, { use } from 'react';
 import Player from '../Player/Player';
 
 
-const AvailablePlayers = ({ playersPromise, setAvailableBalance, availableBalance }) => {
+const AvailablePlayers = ({ playersPromise, setAvailableBalance, availableBalance, purchasedPlayer, setPurchasedPlayer }) => {
     const players = use(playersPromise)
     // console.log(players);
     return (
@@ -13,9 +13,10 @@ const AvailablePlayers = ({ playersPromise, setAvailableBalance, availableBalanc
                     key={index}
                     player={player}
                     setAvailableBalance={setAvailableBalance}
-                    availableBalance={availableBalance
-
-                    }></Player>)
+                    availableBalance={availableBalance}
+                    purchasedPlayer={purchasedPlayer}
+                    setPurchasedPlayer={setPurchasedPlayer}
+                    ></Player>)
             }
         </div>
     );
